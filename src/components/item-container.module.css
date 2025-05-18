@@ -1,0 +1,27 @@
+.itemContainer {
+  border-radius: 8px;
+  padding: 10px 0;
+}
+.itemContainerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  color: #283248;
+  padding: 0 50px;
+}
+.titleTxt {
+  font-weight: bold;
+  margin-right: 8px;
+}
+.itemContainerHeaderTitle{
+
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.rotateIcon{
+    transform: rotate(720deg);
+    transition: transform 2s;
+}

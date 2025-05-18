@@ -1,0 +1,10 @@
+.imageContainer {
+  display: flex;
+  width: 100%;
+  column-gap: 20px;
+}
+.imageItem {
+  box-sizing: border-box;
+  flex: 0 0 calc(20% - 16px);   /* 每个子项宽度为20% */
+  max-width: calc(20% - 16px);
+}

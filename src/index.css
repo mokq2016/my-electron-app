@@ -1,0 +1,152 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+html {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app-header {
+  background: #EA3E3E;
+  height: 90px;
+  line-height: 90px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.app-content{
+  background: #F7F9FC;
+  height: 100%;
+    overflow-y: auto;
+}
+.app-menu {
+  width: 254px;
+  height: 100%;
+  background: #F0F3F6;
+  padding: 22px 18px 0 30px;
+}
+
+.app-menu .menu-item {
+  line-height: 46px;
+  height: 46px;
+  cursor: pointer;
+  padding-left: 10px;
+  border-radius: 8px;
+  color: #50596B;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.app-menu .active-menu {
+  background: #EA3E3E !important;
+  color: #fff;
+}
+
+.menu-item-icon {
+  margin-right: 10px;
+  color: #787F8D;
+}
+
+.active-menu .iconfont {
+  color: #fff;
+}
+
+.app-menu .menu-item:hover {
+  background-color: #E4E8EC;
+
+}
+
+.operation-area-item {
+  height: 44px;
+  line-height: 44px;
+  border: 1px solid #F17D7D;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.operation-area-item:hover {
+  background: #EF6E6E;
+}
+
+.operation-area-search:hover {
+  background: #EA3E3E;
+}
+
+.operation-area-item .iconfont {
+  font-size: 30px;
+  color: #F9C5C5;
+}
+
+.operation-area-input {
+  background: transparent;
+  color: #fff;
+}
+.operation-area-input::placeholder {
+  color: #F9C5C5;
+}
+.right-area-item .iconfont {
+  font-size: 22px;
+  color: #F49C9C;
+  cursor: pointer;
+}
+
+.right-area-item .iconfont:hover {
+  color: #fff;
+}
+
+.split-line {
+  height: 1px;
+  background: #E4E8EC;
+  width: 190px;
+  margin: 10px;
+}
+
+.more-btn:hover {
+  color: #2e2d2d;
+
+}
+
+.more-btn {
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px 10px 8px;
+}
+
+.fold-btn .iconfont {
+  transform: rotate(180deg);
+}
+.footer-bar .iconfont{
+  cursor: pointer;
+}
+.draggable {
+  -webkit-app-region: drag;
+}
+.no-drag {
+  -webkit-app-region: no-drag;
+}
