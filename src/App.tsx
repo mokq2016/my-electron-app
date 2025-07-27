@@ -5,7 +5,7 @@ import './assets/iconfont/iconfont.css';
 import Header from './components/header';
 import FooterBar from './components/footer-bar';
 import Menu from './components/menu';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
 import routes from './routes';
 import { LayoutProvider, useLayout } from './context/LayoutContext';
 
